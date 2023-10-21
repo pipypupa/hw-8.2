@@ -1,0 +1,28 @@
+li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+li:active {
+  background-color: lightblue;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  text-decoration: line-through;
+}
+
+li:nth-child(2n) {
+  color: green;
+}
+
+li:nth-child(3n) {
+  color: red;
+}
+
+li:nth-child(n + 3) {
+  font-style: italic;
+}
