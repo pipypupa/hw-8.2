@@ -1,28 +1,19 @@
-li:hover {
-  background-color: lightgray;
-  cursor: pointer;
+.text-box:visited {
+  color: pink;
 }
 
-li:active {
-  background-color: lightblue;
+#greycol {
+  color: grey;
 }
 
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
-  text-decoration: line-through;
-}
-
-li:nth-child(2n) {
-  color: green;
-}
-
-li:nth-child(3n) {
+.text-box div p {
   color: red;
 }
 
-li:nth-child(n + 3) {
-  font-style: italic;
+.yellow {
+  color: yellow;
+}
+
+.text-box div + h3 + p {
+  color: green;
 }
